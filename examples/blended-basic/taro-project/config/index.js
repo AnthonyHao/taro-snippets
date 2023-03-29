@@ -19,7 +19,8 @@ const config = {
       : path.resolve(__dirname, '../utils'),
     '@/components': process.env.NODE_ENV === 'development'
       ? path.resolve(__dirname, '../src/components')
-      : path.resolve(__dirname, '../components')
+      : path.resolve(__dirname, '../components'),
+    '@/component': path.resolve(__dirname, '../../src/components')
   },
   mini: {
     enableSourceMap: false,
