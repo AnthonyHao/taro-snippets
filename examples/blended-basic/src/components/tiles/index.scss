@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+.composite-data-tile-small {
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+
+  &__heading {
+    color: var(--composite-neutral-primary);
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__subheading {
+    color: var(--composite-neutral-secondary);
+  }
+
+  &__value {
+    color: var(--composite-neutral-primary);
+  }
+
+  &__metric {
+    margin-left: var(--composite-spacing-4);
+  }
+
+  &__metric_in-label {
+    color: var(--composite-neutral-primary);
+  }
+
+  &__label {
+    color: var(--composite-neutral-secondary);
+  }
+}
